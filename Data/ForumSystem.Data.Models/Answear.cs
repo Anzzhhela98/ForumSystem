@@ -1,9 +1,10 @@
-﻿namespace ForumSystem.Data.Models
-{
-    using System;
-    using System.ComponentModel.DataAnnotations;
+﻿using ForumSystem.Data.Common.Models;
+using System;
+using System.ComponentModel.DataAnnotations;
 
-    public class Answear
+namespace ForumSystem.Data.Models
+{
+    public class Answear : BaseDeletableModel<int>
     {
         public int Id { get; set; }
 
