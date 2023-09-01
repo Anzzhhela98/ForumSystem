@@ -3,7 +3,9 @@
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
-    public class SubCategory
+    using ForumSystem.Data.Common.Models;
+
+    public class SubCategory : BaseModel<int>
     {
         public int Id { get; set; }
 
